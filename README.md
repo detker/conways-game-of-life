@@ -77,22 +77,22 @@ Ma postać wiersza ze znakiem '.' (kropka).
 Przerywa pętlę czytającą polecenia i kończy pracę programu.
 </li>
 <li>
-obliczenia **N**-tej kolejnej generacji,
-Ma postać wiersza z dodatnią liczbą całkowitą **N**.
-Liczy **N**-tą kolejną generację, zaczynając od aktualnej. W szczególności, polecenie **1** powoduje obliczenie **następnej generacji**.
+obliczenia N-tej kolejnej generacji,
+Ma postać wiersza z dodatnią liczbą całkowitą N.
+Liczy N-tą kolejną generację, zaczynając od aktualnej. W szczególności, polecenie 1 powoduje obliczenie **następnej generacji**.
 </li>
 <li>
 obliczenia następnej generacji,
-Ma postać **wiersza pustego**. Jest równoważne **poleceniu 1**.
+Ma postać wiersza pustego. Jest równoważne poleceniu 1.
 </li>
 <li>
 zrzutu stanu aktualnej generacji,
-Ma postać wiersza z liczbą **0** (zero).
+Ma postać wiersza z liczbą 0 (zero).
 Generuje kompletny opis aktualnej generacji w takim samym formacie, w jakim był wczytany przez program opis generacji początkowej.
 </li>
 <li>
 przesunięcia okna.
-Ma postać wiersza **z dwiema liczbami całkowitymi**, **w** oraz **k**, **rozdzielonymi spacją**.
-Zmienia współrzędne lewego górnego rogu okna, umieszczając go w **wierszu w** i **kolumnie k**.
+Ma postać wiersza z dwiema liczbami całkowitymi, w oraz k, rozdzielonymi spacją.
+Zmienia współrzędne lewego górnego rogu okna, umieszczając go w wierszu w i kolumnie k.
 </li>
 </ul>
