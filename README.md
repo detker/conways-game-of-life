@@ -96,3 +96,22 @@ Ma postać wiersza z dwiema liczbami całkowitymi, w oraz k, rozdzielonymi spacj
 Zmienia współrzędne lewego górnego rogu okna, umieszczając go w wierszu w i kolumnie k.
 </li>
 </ul>
+
+--------------------------------------------------------------------------------
+
+Przed wczytaniem każdego polecenia program pokazuje zawartość okna, zaczynając od lewego górnego rogu.
+
+Zawartość okna jest przedstawiona za pomocą WIERSZE wierszy, z których każdy ma długość KOLUMNY. Po ostatnim z nich następuje wiersz, w którym jest ciąg znaków '=' (równość) o długości KOLUMNY.
+
+Znak w wierszu zawartości okna określa stan komórki. Komórka żywa jest reprezentowana przez znak '0' (zero) a komórka martwa jest reprezentowana przez znak . (kropka).
+
+Compilation and launching:
+-------------------------
+
+To **compile**, type command: **gcc @opcje -DWIERSZE=val1 -DKOLUMNY=val2 main.c -o 01**
+
+**opcje** is a gcc configuration file, included in repo.
+<br>
+**WIERSZE, KOLUMNY** - positive integers;
+
+To **launch**, type command: **./01**
