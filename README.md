@@ -115,3 +115,5 @@ To **compile**, type command: **gcc @opcje -DWIERSZE=val1 -DKOLUMNY=val2 main.c 
 **WIERSZE, KOLUMNY** - positive integers;
 
 To **launch**, type command: **./01**
+
+*specification provided by: MIM UW*
